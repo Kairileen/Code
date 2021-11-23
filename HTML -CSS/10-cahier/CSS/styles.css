@@ -1,0 +1,40 @@
+.container img {
+    width: 70px;
+    height: 70px;
+}
+
+.carousel img {
+    height: 700px;
+    width: 500px;
+    margin-bottom: 15px;
+}
+
+.avis {
+    border-style: dotted;
+}
+
+#back {
+    padding: 15px;
+    border-radius: 10px;
+    color: peachpuff;
+}
+
+#services {
+   padding: 100px;
+   align-content: center;
+   align-content: space-between;
+   
+}
+
+#contact {
+    padding-top: 90px;
+    align-content: center;
+    
+    
+}
+
+
+#tel {
+    width: 100%;
+    height: auto;
+}
