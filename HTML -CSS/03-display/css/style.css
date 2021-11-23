@@ -1,0 +1,120 @@
+body {
+    background-color: lightgray;
+    /*margin: 10px 20px;
+    margin: 10px 20px 30px;
+    margin: 10px 20px 30px 40px;
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    margin-left: 40px;*/
+    margin: 0;
+}
+
+.container {
+    width: 1000px;
+    margin: auto;
+}
+
+header {
+    background-color: orange;
+    /* C:\Users\matthieu\Code\html-css\03-display\css\style.css */
+    /* ../../01-bases/img/le-couscous.jpeg */
+    background-image: url(../../01-bases/img/le-couscous.jpeg), url(../../01-bases/img/steak-frites.jpeg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left, right;
+    background-image: linear-gradient(180deg, #fff, orange);
+    border: 3px solid #000;
+    padding: 38px 0;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+nav {
+    background-color: aqua;
+    border: 3px solid #000;
+    padding: 0 10px;
+    background-image: linear-gradient(180deg, #fff, aqua);
+}
+
+nav p {
+    /* On passe l'élément au dessus du reste */
+    position: absolute;
+    margin: 10px 0;
+}
+
+ul.menu {
+    text-align: center;
+    margin: 10px 0;
+    padding: 0;
+}
+
+/* Sélectionne les li qui sont enfants du ul */
+.menu li {
+    display: inline; /* display: block; par défaut */
+    /* Le inline ne prend que la hauteur du contenu */
+    /* display: inline-block; */
+}
+
+main {
+    margin: 15px 0;
+}
+
+section {
+    border: 3px solid #000;
+    padding: 10px 15px;
+    margin-right: 15px;
+    float: left;
+    width: 649px; /* 700 - 15 - 15 - 3 - 3 - 15 */
+}
+
+/* On sélectionne les enfants directs de main */
+main > aside {
+    float: left;
+    width: 294px; /* 300 - 3 - 3 */
+    height: 365px;
+}
+
+.clear {
+    clear: both;
+}
+
+section > article {
+    margin-bottom: 15px;
+}
+
+section h2 {
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0;
+}
+
+#article-2 article {
+    float: left;
+    width: 479px;
+    margin-right: 15px;
+}
+
+#article-2 aside {
+    float: left;
+    width: 143px;
+    height: 150px;
+}
+
+article {
+    background-color: #8db1e3;
+    border: 3px solid #000;
+    height: 150px;
+}
+
+aside {
+    background-color: #d6a39c;
+    border: 3px solid #000;
+}
+
+footer {
+    background-color: #d3d4ac;
+    border: 3px solid #000;
+    padding: 15px 0;
+    text-align: center;
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<!-- La langue indique la langue du contenu  -->
+<html lang="fr">
+    <head>
+        <!-- alt + shift + f permet de reindenter le code rapidement -->
+        <title>ma première page HTML</title>
+        <!-- Le charset UTF - 8 permet d'indiquer qu'on veut tous les caractères du monde -->
+        <meta charset="utf-8" />
+    </head>
+    <body>
+        <!-- Représente le header du document -->
+<div id="header">
+    <h1>Mes recettes</h1>
+    <p> Un site présentant mes recettes</p>
+</div>
+
+    <!-- Représente le menu du site -->
+    <div id="navigation"> 
+        <ul>
+         <li>
+              <a href="">couscous</a>
+        </li>
+         <li>
+             <a href="">Frite</a>
+       </li>
+       <li>
+            <a href="">crêtes</a>
+       </li>
+   </ul>
+</div>
+
+        <!-- Contenu principal de la page -->
+        <div id="main">
+            <h2>Quelques recettes</h2>
+
+            <div id="recipes">
+                <div class="recipe">
+                    <!-- L'image est chargée de façon relative au fichier index.htlm -->
+                    <!-- ../ permet de remonter dans le dossier parent -->
+                    <!-- ./ ne fait rien puisque on reste dans le dossier courant -->
+                    <img src="img/couscous.jpg" width="250" alt="Couscous">
+                    <h3>couscous</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus commodi veniam quia nemo dolore, atque dolor rem ducimus natus tempora doloribus velit cupiditate. Ipsa quia assumenda voluptates iusto odit beatae.</p>
+                </div>
+                <div class="recipe">
+                    <img src="img/steak.jpg" width="250" alt="steak">
+                    <h3>frites</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus commodi veniam quia nemo dolore, atque dolor rem ducimus natus tempora doloribus velit cupiditate. Ipsa quia assumenda voluptates iusto odit beatae.</p>
+                </div>
+                <div class="recipe"> 
+                    <img src="img/crepes.jpg" width="250" alt="crepes">
+                    <h3>crêpes</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus commodi veniam quia nemo dolore, atque dolor rem ducimus natus tempora doloribus velit cupiditate. Ipsa quia assumenda voluptates iusto odit beatae.</p>
+                </div>
+
+            </div>
+        </div>
+        <!-- Le footer avec notre copyright -->
+
+        <div id="footer">
+            <p>&copy; Tous droits réservés - mentions légales</p>
+
+            <p>Hello World ! </p>
+        </div>
+    </body>
+</html>

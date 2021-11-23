@@ -1,0 +1,51 @@
+body {
+    background-image: url(img/bg.png);
+    
+}
+
+.container {
+    width: 1000px;
+    margin: auto;
+    padding: 15px;
+}
+
+#retour img {
+    width: 500px;
+}
+
+.logo {
+    align-items: center;
+}
+
+.logo h1 {
+    width: 660px;
+    font-size: 25px;
+    
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+ul li {
+    margin-left: 20px;
+    list-style-type: none;
+   
+    
+}
+
+ul li a {
+    padding: 5px;
+    width: 10%;
+   font-size: 15px;
+   text-decoration: none;
+   color: black;
+    
+}
+
+
+
+

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<!-- La langue indique la langue du contenu  -->
+<html lang="fr">
+
+<head>
+    <!-- alt + shift + f permet de reindenter le code rapidement -->
+    <title>ma première page HTML</title>
+    <!-- Le charset UTF - 8 permet d'indiquer qu'on veut tous les caractères du monde -->
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="flex header">
+            <!-- Représente le header du document -->
+            <header class="flex logo">
+                <h1>Mes recettes</h1>
+                <p> Un site présentant mes recettes</p>
+            </header>
+
+            <!-- Représente le menu du site -->
+            <nav>
+                <ul class="flex">
+
+                    <li class="nomargin">
+
+                        <a href="">couscous</a>
+                    </li>
+                    <li>
+                        <a href="">steak</a>
+                    </li>
+                    <li>
+                        <a href="">crêpes</a>
+                    </li>
+
+                </ul>
+            </nav>
+        </div>
+        <!-- Contenu principal de la page -->
+        <main>
+
+            <section id="recipes">
+                <h2>Quelques recettes, bon appétit ! </h2>
+                <div class="flex">
+                    <article class="recipe">
+                        <!-- L'image est chargée de façon relative au fichier index.htlm -->
+                        <!-- ../ permet de remonter dans le dossier parent -->
+                        <!-- ./ ne fait rien puisque on reste dans le dossier courant -->
+                    
+                        <div><img src="img/couscous.jpg" alt="Couscous">
+                            <h3><span class="couscous">Couscous</span></h3>
+                        </div>
+                        <p>Le couscous avec de la viande, rip les végan.</p>
+                    
+                        <div class="text-center">
+                            <a class="button" href="#">Commander</a>
+                        </div>
+                    </article>
+                    <article class="recipe">
+                        <div><img src="img/steak.jpg" alt="steak">
+                            <h3><span class="steakfrites">steak frites</span></h3>
+                        </div>
+                        <p>Le steak, encore pire pour les vegan.</p>
+                        <div class="text-center">
+                            <a class="button" href="#">Commander</a>
+                        </div>
+                    </article>
+                    <article class="recipe">
+                        <div><img src="img/crepes.jpg" alt="crepes">
+                            <h3><span class="crepes">Crêpes</span></h3>
+                        </div>
+                        <p>Les crêpes c'est la vie maggle</p>
+                        <div class="text-center">
+                            <a class="button" href="#">Commander</a>
+                        </div>
+                    </article>
+                </div>
+
+            </section>
+
+
+            <!--Un tableau en html-->
+            <table>
+                <thead> <!-- Entête ou légende-->
+                    <tr> <!-- Pour insérer une ligne-->
+                        <th>Nom</th> <!--Pour insérer une colonne ou une cellule-->
+                        <th>Prix</th>
+                        <th>Description</th>
+                        <th>Test</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Semoule</td>
+                        <td>0,99</td>
+                        <td>Petits grains de blés ?</td>
+                        <td>Test</td>
+                    </tr>
+                    <tr>
+                        <td>Poulet</td>
+                        <td>0.99</td>
+                        <td colspan="3">0,99</td> 
+                        
+                    </tr>
+                </tbody> <!--On met un "t" devant "body" pour indiquer qu'il appartient à la case "table"-->
+            </table>
+
+
+        </main>
+        <!-- Le footer avec notre copyright -->
+
+        <footer class="text-center">
+            <p>&copy; Tous droits réservés - mentions légales</p>
+
+        </footer>
+    </div>
+
+</body>
+
+</html>
