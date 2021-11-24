@@ -1,0 +1,71 @@
+body {
+    background-color: black;
+}
+
+header {
+    background-image: url(img/background.jpg);
+    padding-top: 15px;
+}
+
+#header-txt{
+    color: rgb(239, 159, 5);
+}
+
+.p {
+    padding-left: auto;
+}
+
+
+.container{
+    background-image: url(img/background.jpg);
+    padding: 0px;
+    max-width: 1050px;
+    
+}
+
+#retour img {
+    margin: 0px;
+    padding: 0px;
+    height: auto;
+    width: 100%;
+}
+
+.container-fluid {
+    background-color: white;
+    padding: 0px;
+    max-width: 1050px;
+}
+
+.bou {
+    flex-wrap: nowrap;
+	text-align: left;
+}
+
+.card {
+    height: 375px;
+    margin: 0px;
+}
+
+.margebo {
+    margin-top: 0px;
+}
+
+
+
+@media (min-width : 768px) {
+    .zone-adaptative {
+        width: 750px;;
+    }
+}
+
+@media (min-width: 992px) {
+    .zone-adaptative {
+        width: 970px;
+    }
+}
+
+@media (min-width : 1200px) {
+    .zone-adaptative {
+        width: 1170px;
+    }
+}
